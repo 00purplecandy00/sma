@@ -1,0 +1,23 @@
+#footer_wrap{
+    background-color: lightgray;
+    width:100%;
+    position:fixed;
+    height: 50px;
+    color:black;
+    font-size: 12px;
+}
+
+.footer_wrap_ul{
+    width:1200px;
+    height:20px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    padding-left:auto;
+    padding-right:auto;
+    line-height:20px;
+}
+
+.footer_space{
+    width:20px;
+}

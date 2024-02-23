@@ -1,0 +1,96 @@
+#main_wrap{
+    width:100%;
+    height:calc(100% - 190px);
+    background-color: white;
+}
+
+#main_photoes{
+    width: 1200px;
+    height:375px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    background-image: url('../images/effect02.jpg');
+}
+
+#main_achievement{
+    width:1200px;
+    height:300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main_achievement h2{
+    color:navy;
+    margin-top:35px;
+}
+
+#main_achievements{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.darker_effect{
+    background-color: navy;
+    opacity: 0.3;
+    height:200px;
+    width:350px;
+    cursor:pointer;
+    border-radius: 10px;
+    position:absolute;
+}
+.main_achievement_detail{
+    height:200px;
+    width:350px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.darker_effect h4{
+    padding:10px;
+    margin:0;
+    color:white;
+}
+
+.main_white_font:hover{
+    font-size: 20px;
+}
+
+#main_detail1{
+    background-image: url(../images/detail1.jpg);
+}
+
+#main_detail2{
+    background-image: url(../images/detail2.jpg);   
+}
+
+#main_detail3{
+    background-image: url(../images/detail3.jpg);
+}
+
+#main_font_clear{
+    opacity: 0;
+    z-index: 4;
+    color:none;
+}
+
+.main_white_font{
+    position:absolute;
+    color:white;
+    height:200px;
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.main_white_font h4{
+    margin:0;
+    padding:5px;
+}

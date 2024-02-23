@@ -1,0 +1,74 @@
+
+
+#head_upper{
+    width:100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    padding-bottom:15px;
+}
+
+#head_upper_inner{
+    width:1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#head_company_name{
+    display: flex;
+    cursor: pointer;
+}
+
+#head_company_logo{
+    font-weight: 1000;
+    color:navy;
+    font-size: 40px;
+    border:5px solid navy;
+    width:120px;
+    line-height:50px;
+    height:50px;
+    text-align: center;
+}
+
+#head_company_name_name{
+    font-weight: 1000;
+    color:navy;
+    font-size: 35px;
+    margin-left:10px;
+    line-height: 60px;
+}
+
+#head_company_number{
+    color:navy;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+#head_bottom{
+    background-color: navy;
+    color:white;
+    height:30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    width:100%;
+}
+
+#head_bottom_inner{
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#head_bottom_inner_ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#head_bottom_inner_ul li:hover{
+    color: gray;
+    cursor: pointer;
+}
